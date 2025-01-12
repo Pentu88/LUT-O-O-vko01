@@ -8,9 +8,4 @@ public class Animal {
         this.species = species;
         this.age = age;
     }
-
-    @Override
-    public String toString() {
-        return this.name + '\n' + this.species + '\n' + this.age;
-    }
 }
